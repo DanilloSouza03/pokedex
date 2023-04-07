@@ -1,0 +1,37 @@
+Requisição HTTP
+
+URL:https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+    ${Endereço}/${patch = caminho de identificação de recurso}
+
+Request Method: GET | POST | PUT | DELETE
+
+Request Headers
+  Configurações
+  accept-language: 
+    pt-BR;q=1
+    pt;q=0.9
+    en-US;q=0.8
+    en;q=0.7
+(O q significa prioridade)
+
+Request Body
+{
+    "name": "Teste"
+}
+
+Status Code:
+    Informational responses (100 – 199)
+    Successful responses (200 – 299)
+    Redirection messages (300 – 399)
+    Client error responses (400 – 499)
+    Server error responses (500 – 599)
+
+Response Headers
+  Configurações 
+
+Response Body  
+
+
+
+
+   
